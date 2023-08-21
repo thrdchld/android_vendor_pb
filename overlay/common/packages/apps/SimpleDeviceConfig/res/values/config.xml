@@ -195,5 +195,12 @@
         <item>launcher/GBOARD_UPDATE_ENTER_KEY=false</item>
         <item>launcher/enable_one_search=true</item>
         <item>launcher/enable_quick_launch_v2=false</item>
+
+        <!-- USAP Pool -->
+        <item>runtime_native/usap_pool_enabled=true</item>
+        <item>runtime_native/usap_pool_refill_delay_ms=3000</item>
+        <item>runtime_native/usap_pool_size_max=10</item>
+        <item>runtime_native/usap_pool_size_min=1</item>
+        <item>runtime_native/usap_refill_threshold=5</item>
     </string-array>
 </resources>
